@@ -10,11 +10,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-.bigh1 {
-  font-size:5rem!important;
-}
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11310,8 +11305,8 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 header.masthead:before {
   content: "";
@@ -11328,8 +11323,8 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
